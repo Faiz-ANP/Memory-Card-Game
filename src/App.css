@@ -76,3 +76,14 @@ h1{
 .game-end h1{
   font-size: 60px;
 }
+
+
+@media screen and (max-width:640px) {
+  .container{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-auto-rows: 105px;
+    justify-content: center;
+    gap: 20px;
+  }
+}
